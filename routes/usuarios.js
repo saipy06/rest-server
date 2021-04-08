@@ -7,7 +7,7 @@ const {
     validarJWT,
     esAdminRole,
     tieneRole
-} = require('../middlewares');
+} = require('../middlewares');   //porque busca en dicha carpeta el archio index.js de forma automatica
 
 
 const { esRoleValido, emailExiste, existeUsuarioPorId } = require('../helpers/db-validators');
